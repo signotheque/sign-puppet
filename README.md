@@ -1,4 +1,4 @@
-#HTML5 Canvas-based Puppet Animation Rig for Open Source Sign Language
+#HTML5 Canvas-based Puppet Animation Rig for Free Sign Language
 
 A Javascript API for drawing a stylized human figure in a limited range of specific poses.
 
@@ -24,7 +24,7 @@ The draw method takes a canvas, width, height, x, y and the animation channel va
 <canvas id="the_canvas" width="600" height="400"></canvas>
 <script>
   var canvas = document.getElementById('the_canvas');
-  var puppet = aslfont.SignPuppet.create();
+  var puppet = Signotheque.SignPuppet.create();
   var channels = {
     //animation channel values go here, for example:
     hry: -0.3
