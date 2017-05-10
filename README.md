@@ -11,11 +11,11 @@ The goal of this project is to provide an easy to use means of delivering sign l
 
 Feedback and pull requests are welcome.
 
-[Sign Puppet Demo](http://aslfont.github.io/sign-puppet/demo/)
+[Sign Puppet Demo](http://signotheque.github.io/signotheque/demo/)
 
 ##Basic Usage
 
-![This is the puppet in a neutral pose](http://github.com/aslfont/sign-puppet/raw/master/demo/default.png)
+![This is the puppet in a neutral pose](http://github.com/signotheque/signotheque/raw/master/demo/default.png)
 
 The draw method takes a canvas, width, height, x, y and the animation channel values that define the pose.
 
@@ -59,7 +59,7 @@ setTimeout(
 );
 ```
 
-![This is the puppet in a few sample poses](http://github.com/aslfont/sign-puppet/raw/master/demo/action_small.png)
+![This is the puppet in a few sample poses](http://github.com/signotheque/signotheque/raw/master/demo/action_small.png)
 
 
 ##Animation Channels
