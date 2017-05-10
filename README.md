@@ -1,4 +1,4 @@
-#HTML5 Canvas-based Puppet Animation Rig for Sign Language
+#HTML5 Canvas-based Puppet Animation Rig for Open Source Sign Language
 
 A Javascript API for drawing a stylized human figure in a limited range of specific poses.
 
@@ -11,7 +11,7 @@ The goal of this project is to provide an easy to use means of delivering sign l
 
 Feedback and pull requests are welcome.
 
-[Sign Puppet Demo](http://signotheque.github.io/signotheque/demo/)
+[Signotheque Demo](http://signotheque.github.io/signotheque/demo/)
 
 ##Basic Usage
 
@@ -20,7 +20,7 @@ Feedback and pull requests are welcome.
 The draw method takes a canvas, width, height, x, y and the animation channel values that define the pose.
 
 ```html
-<script type="text/javascript" src="sign-puppet.js" ></script>
+<script type="text/javascript" src="signotheque.js" ></script>
 <canvas id="the_canvas" width="600" height="400"></canvas>
 <script>
   var canvas = document.getElementById('the_canvas');
