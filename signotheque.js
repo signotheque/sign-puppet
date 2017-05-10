@@ -1,4 +1,4 @@
-// https://github.com/aslfont/sign-puppet
+// https://github.com/signotheque/signotheque
 (function($) {
 
   var Animator, Model, Graphics, Capsule, Eye, Mouth, Pose, SignPuppet;
