@@ -1,4 +1,4 @@
-var poses = {
+let poses : {[key:string]:{[key:string]:number}}= {
     default_pose: {},
     forward: {
         rby: 0,
