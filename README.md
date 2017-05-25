@@ -1,4 +1,4 @@
-#HTML5 Canvas-based Puppet Animation Rig for Free Sign Language
+#HTML5 Canvas-based Puppet Animation Rig for Sign Language
 
 A Javascript API for drawing a stylized human figure in a limited range of specific poses.
 
@@ -11,20 +11,20 @@ The goal of this project is to provide an easy to use means of delivering sign l
 
 Feedback and pull requests are welcome.
 
-[Signotheque Demo](http://signotheque.github.io/signotheque/demo/)
+[Sign Puppet Demo](http://aslfont.github.io/sign-puppet/demo/)
 
 ##Basic Usage
 
-![This is the puppet in a neutral pose](http://github.com/signotheque/signotheque/raw/master/demo/default.png)
+![This is the puppet in a neutral pose](http://github.com/aslfont/sign-puppet/raw/master/demo/default.png)
 
 The draw method takes a canvas, width, height, x, y and the animation channel values that define the pose.
 
 ```html
-<script type="text/javascript" src="signotheque.js" ></script>
+<script type="text/javascript" src="sign-puppet.js" ></script>
 <canvas id="the_canvas" width="600" height="400"></canvas>
 <script>
   var canvas = document.getElementById('the_canvas');
-  var puppet = Signotheque.SignPuppet.create();
+  var puppet = aslfont.SignPuppet.create();
   var channels = {
     //animation channel values go here, for example:
     hry: -0.3
@@ -59,7 +59,7 @@ setTimeout(
 );
 ```
 
-![This is the puppet in a few sample poses](http://github.com/signotheque/signotheque/raw/master/demo/action_small.png)
+![This is the puppet in a few sample poses](http://github.com/aslfont/sign-puppet/raw/master/demo/action_small.png)
 
 
 ##Animation Channels
