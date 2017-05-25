@@ -1,5 +1,5 @@
 
-///<reference path="./components/signPuppet.d.ts"/>
+///<reference path="./components/signpuppet/signPuppet.d.ts"/>
 
 var canvas = <HTMLCanvasElement>document.getElementById('the_canvas');
 var puppet = SignPuppet.create();
@@ -12,9 +12,7 @@ var channels: Channels = {};
 // animation
 var animFrame = function (cb: FrameRequestCallback) {
     return window.requestAnimationFrame(cb) ||
-
         setTimeout(cb, 10);
-
 };
 
 
