@@ -33,7 +33,12 @@ setTimeout(loop, 50);
 function applyPose(pose) {
     for (var k in pose) {
         if (pose.hasOwnProperty(k)) {
-            $('#' + k).val(pose[k]);
+            //$('#' + k).val(pose[k]);
+            // send also value to input widgets
+            let lInput=document.getElementById(k);
+            if (lInput) {
+                lInput.value = pose[k];
+            }
             channels[k] = pose[k];
         }
     }
