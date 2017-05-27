@@ -3,12 +3,12 @@
         "outDir": "./dist/",
         "sourceMap": true,
         "noImplicitAny": true,
-        "module": "commonjs",
+        "module": "amd",
         "target": "es5",
         "jsx": "react",
         "watch": true       
     },
     "include": [
-        "./src/**/*"
+        "./src/**/*","./tests/**/*"
     ]
 }
